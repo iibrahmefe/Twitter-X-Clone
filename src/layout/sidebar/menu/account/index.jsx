@@ -16,12 +16,12 @@ export default function Account() {
 
                 </Popover.Button>
                 <Transition
-                enter="transition duration-100 ease-out"
-                enterFrom="transform scale-95 opacity-0"
-                enterTo="transform scale-100 opacity-100"
-                leave="transition duration-75 ease-out"
-                leaveFrom="transform scale-100 opacity-100"
-                leaveTo="transform scale-95 opacity-0"
+                    enter="transition duration-100 ease-out"
+                    enterFrom="transform scale-95 opacity-0"
+                    enterTo="transform scale-100 opacity-100"
+                    leave="transition duration-75 ease-out"
+                    leaveFrom="transform scale-100 opacity-100"
+                    leaveTo="transform scale-95 opacity-0"
                 >
                     <Popover.Panel className="rounded-2xl absolute bottom-full w-[300px] bg-black shadow-box left-1/2 -translate-x-1/2 py-3  overflow-hidden " >
                         <AccountMore />
